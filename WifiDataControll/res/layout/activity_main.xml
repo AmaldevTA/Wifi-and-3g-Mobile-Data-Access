@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <TimePicker
+        android:id="@+id/timePicker_arr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TimePicker
+        android:id="@+id/timePicker_dep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+   <Button
+        android:id="@+id/button_State"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_weight="20"
+        android:background="@android:color/white"
+        android:padding="3dp"
+        android:text="Active"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30dp" />
+    
+
+</LinearLayout>
